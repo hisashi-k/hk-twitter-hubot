@@ -197,5 +197,11 @@ module.exports = (robot) ->
   robot.hear /SLCM/i, (msg) -> msg.send "水上発射巡航ミサイルね～。"
   robot.hear /SEAD/i, (msg) -> msg.send "敵防空網制圧ね～。"
   robot.hear /DEAD/i, (msg) -> msg.send "敵防空網破壊ね～。"
+  robot.hear /新地球遊撃隊/i, (msg) -> msg.send "矢野徹さんの作品ね～。"
+  robot.hear /ソクラテス法/i, (msg) -> msg.send "問答で帰納的に一般原理を理解させる方法ね～。"
+  robot.hear /プラトンの立体/i, (msg) -> msg.send "正多面体ね～。"
+  robot.hear /イデオロギー/i, (msg) -> msg.send "観念の形態ね～。"
+  robot.hear /アングリア/i, (msg) -> msg.send "イングランドのラテン語名ね～。"
+  robot.hear /お湯/i, (msg) -> msg.send "ホットウォーターぢゃなくてボイルドウォーターなのよね～。"
 
 # robot.hear /単語/i, (msg) -> msg.send "説明"
